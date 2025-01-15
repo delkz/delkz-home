@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link";
+
 
 const Header = () => {
 
@@ -9,7 +11,7 @@ const Header = () => {
                 <div className="flex justify-between items-center py-4">
                     <div>
                         <h1 className="text-2xl font-bold">
-                           Delkz
+                            <Link href={"/"}>Delkz</Link>
                         </h1>
                     </div>
                     <div>
