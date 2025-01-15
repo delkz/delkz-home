@@ -1,3 +1,4 @@
+import AboutMe from "./components/about-me";
 import LayoutButton from "./components/layout-button";
 import SkillsArea from "./components/skills";
 
@@ -13,6 +14,8 @@ export default function Home() {
       </div>
 
       <SkillsArea/>
+
+      <AboutMe/>
     </div>
   );
 }

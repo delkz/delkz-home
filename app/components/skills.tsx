@@ -1,3 +1,5 @@
+import SectionTitle from "./section-title";
+
 type skillsContentObject = {
     title: string;
     description: string;
@@ -38,9 +40,7 @@ const SkillsArea = () => {
 
 
     return (<div className="mt-5 lg:mt-0">
-        <h2 className="text-2xl font-bold text-center">Services</h2>
-        <p className="text-lg text-center">The sills to pay the bills</p>
-
+        <SectionTitle title="Services" subtitle="The skills to pay the bills" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
             {skillsContent.map((content, index) => (
                 <div key={index}>
