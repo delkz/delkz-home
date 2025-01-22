@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <h2 className="text-xl font-bold">Hey! I&apos;m <span className="text-indigo-500">David</span>.</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Mid-Level Front-End Developer with over 4 years of experience in e-commerce and blogs
         </p>
         <LayoutButton type="link" href="/" className="mt-2">Continue</LayoutButton>
       </div>
@@ -16,6 +16,8 @@ export default function Home() {
       <SkillsArea/>
 
       <AboutMe/>
+
+      <h2 className="text-xl font-bold back text-white bg-black text-center p-4 mt-5">Thanks for visiting! I&apos;m not finished building this page yet, so feel free to come back in the future. :) </h2>
     </div>
   );
 }
