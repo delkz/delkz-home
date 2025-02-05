@@ -1,9 +1,10 @@
 "use client"
 
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 const Footer = ()=>{
-    
+    const t = useTranslations('Footer');
     return (
         <div className="footer bg-black text-white mt-5">
             <div className="container mx-auto px-4">
@@ -15,8 +16,8 @@ const Footer = ()=>{
                     </div>
                     <div>
                         <ul className="mt-5 lg:mt-0">
-                            <li><Link href={"/"}>Home</Link></li>
-                            <li><Link href={"/terms-of-use"}>Terms of Use</Link></li>
+                            <li><Link href={"/"}>{t("home")}</Link></li>
+                            <li><Link href={"/terms-of-use"}>{t("terms")}</Link></li>
                         </ul>
                     </div>
                 </div>
