@@ -1,0 +1,73 @@
+{
+    "HomePage": {
+        "hello": "Olá! me chamo",
+        "hello_description": "Sou desenvolvedor Front-End Pleno com mais de 4 anos de experiência em e-commerce e blogs",
+        "continue": "Continuar",
+        "working": "Obrigado por visitar! Ainda não terminei de construir esta página, então sinta-se à vontade para voltar no futuro. :)"
+    },
+    "Skills": {
+        "title": "Serviços",
+        "subtitle": "As habilidades que pagam as contas",
+        "items": {
+            "1": {
+                "title": "Design de Web",
+                "content": "Criação de sites modernos, responsivos e otimizados para diversos dispositivos, garantindo a melhor experiência do usuário."
+            },
+            "2": {
+                "title": "Desenvolvimento Web",
+                "content": "Desenvolvimento de aplicações e funcionalidades personalizadas utilizando as tecnologias mais recentes do mercado."
+            },
+            "3": {
+                "title": "Otimização de SEO",
+                "content": "Melhoria de desempenho e otimização para motores de busca, ajudando seu site a ficar no topo do Google."
+            },
+            "4": {
+                "title": "Ferramentas Personalizadas",
+                "content": "Desenvolvimento de ferramentas exclusivas para atender às necessidades do seu negócio e simplificar processos internos."
+            },
+            "5": {
+                "title": "Design Responsivo",
+                "content": "Criação de designs amigáveis para dispositivos móveis e totalmente responsivos para proporcionar uma experiência consistente em todos os dispositivos."
+            },
+            "6": {
+                "title": "Formação Acadêmica",
+                "content": "Forte base em engenharia de software e análise de sistemas com credenciais de instituições renomadas como USP e IMPACTA."
+            }
+        }
+    },
+    "AboutMe": {
+        "title": "Sobre Mim",
+        "subtitle": "Conheça-me",
+        "text_title": "Quem sou eu?",
+        "text_content": "<p>Desenvolvedor Front-End Pleno com mais de 4 anos de experiência em e-commerce e blogs, estou em busca de novas oportunidades, de preferência no modelo home office. Estou aberto a diversos projetos, como desenvolvimento de aplicações, software e bancos de dados, bem como funções em posições de back-end ou full-stack.</p><p>Tenho expertise em tecnologias modernas como React, Next.js e GraphQL, bem como práticas como Clean Code, TDD e integrações com APIs RESTful. Valorizo o trabalho em equipe, a autogestão e o mentoring, sempre focando em entregar soluções eficientes e de alto impacto.</p>",
+        "work_title": "Experiência de Trabalho",
+        "work_content": "<section><h2>Desenvolvedor Front-End Pleno (SERI.E DESIGN)</h2><p><strong>Outubro 2019 - Presente</strong></p><ul><li>Desenvolvi e mantive plataformas de e-commerce como Wake Storefront, Jet, Linx, Tray, Nuvemshop, Shopify, entre outras; além de criar e manter blogs em WordPress.</li><li>Refatorei código legado e propus novas tecnologias para a equipe de desenvolvimento.</li><li>Otimizei o desempenho dos sites contratados.</li><li>Assisti outros membros da equipe e estimei/validei tarefas.</li><li>Treinei membros da equipe de desenvolvimento.</li></ul></section><section><h2>Desenvolvedor Front-End Júnior (Grupo Ideal Trends)</h2><p><strong>Fevereiro 2019 - Outubro 2019</strong></p><ul><li>Desenvolvi sites focados em SEO e posicionamento orgânico.</li><li>Desenvolvi ferramentas internas.</li></ul></section>"
+    },
+    "Footer": {
+        "home": "Início",
+        "terms": "Termos de Uso"
+    },
+    "TermsOfUse": {
+        "title": "Termos de Uso",
+        "subtitle": "Bem-vindo ao meu portfólio online! Gostaria de esclarecer algumas informações sobre os elementos e a inspiração utilizados no desenvolvimento deste site.",
+        "thanks": "Obrigado por visitar! 😊",
+        "terms": {
+            "1": {
+                "title": "Desenvolvimento Exclusivo",
+                "content": "Este site foi totalmente desenvolvido por mim do zero, com base nas minhas habilidades e criatividade como desenvolvedor. O layout foi inspirado no template <strong>Space</strong>, disponível no <a>Colorlib</a>. Nenhum código ou recurso do template original foi reutilizado diretamente; o design serviu apenas como referência para criar algo único."
+            },
+            "2": {
+                "title": "Elementos Gráficos",
+                "content": "<p>As linhas onduladas decorativas abaixo dos títulos das seções foram obtidas do recurso 'Linha Ondulada Isolada no Fundo Branco', disponível no <a>Vecteezy</a>. Esses elementos foram incorporados em conformidade com os termos de uso da plataforma.</p><p>Os ícones utilizados foram obtidos do Heroicons, uma biblioteca de ícones de código aberto amplamente conhecida por sua versatilidade e design minimalista. Esses ícones foram utilizados em conformidade com as permissões e licenças fornecidas pela plataforma.</p>"
+            },
+            "3": {
+                "title": "Agradecimentos e Licenças",
+                "content": "Os elementos visuais utilizados no site, como as linhas onduladas, estão devidamente creditados e utilizados de acordo com os termos fornecidos por seus criadores. Agradeço aos criadores e plataformas por oferecerem recursos valiosos para a comunidade."
+            },
+            "4": {
+                "title": "Contato",
+                "content": "Se você tiver alguma dúvida sobre o desenvolvimento deste site ou precisar de mais informações sobre os elementos utilizados, sinta-se à vontade para entrar em contato através do formulário de contato fornecido."
+            }
+        }
+    }
+}
