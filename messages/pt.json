@@ -60,8 +60,9 @@
         },
         "submit": {
             "label": "Enviar Mensagem",
-            "success_message": "<p>Mensagem enviada com sucesso! 😊</p><p>Entrarei em contato o mais breve possível.</p>",
-            "error_message": "<p>Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde.</p>"
+            "waiting_message": "Enviando...",
+            "success_message": "Mensagem enviada com sucesso! 😊 \nEntrarei em contato o mais breve possível.",
+            "error_message": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde."
         }
     },
     "Footer": {

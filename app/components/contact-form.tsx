@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import React, { useState } from 'react';
 import SectionTitle from './section-title';
+import { toast } from 'react-toastify';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 interface ContactFormProps {
@@ -18,6 +19,7 @@ const ContactForm = ({ sitekey }: ContactFormProps) => {
         message: '',
     });
 
+    const [disableButton, setDisableButton] = useState<boolean>(false);
     const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -31,6 +33,8 @@ const ContactForm = ({ sitekey }: ContactFormProps) => {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
+        setDisableButton(true)
+        toast(t('submit.waiting_message'));
 
         if (!recaptchaToken) {
             alert('Please complete the reCAPTCHA');
@@ -46,7 +50,7 @@ const ContactForm = ({ sitekey }: ContactFormProps) => {
             },
             body: JSON.stringify({
                 to: formData.email,
-                subject: `NOVO CONTATO VIA SITE`,
+                subject: `🥳 NOVO CONTATO VIA SITE`,
                 text: `
                 -----------------------
                 | Nome: ${formData.name}
@@ -60,13 +64,20 @@ const ContactForm = ({ sitekey }: ContactFormProps) => {
         })
             .then((response) => {
                 if (response.ok) {
-                    console.log('Email sent successfully');
+                    toast.success(t('submit.success_message'));
+                    setFormData({ name: '', email: '', message: '' });
+                    // console.log('Email sent successfully');
                 } else {
-                    console.error('Failed to send email');
+                    toast.error(t('submit.error_message'))
+                    // console.error('Failed to send email');
                 }
             })
-            .catch((error) => {
-                console.error('Error sending email:', error);
+            .catch(() => {
+                toast.error(t('submit.error_message'))
+                // console.error('Error sending email:', error);
+            }).finally(() => {
+                setDisableButton(false);
+
             });
     };
 
@@ -134,12 +145,14 @@ const ContactForm = ({ sitekey }: ContactFormProps) => {
             {/* reCAPTCHA */}
             
             <ReCAPTCHA
-                sitekey={sitekey} // Replace with your site key
+                sitekey={sitekey} 
                 onChange={handleRecaptchaChange}
             />
 
             <button
                 type="submit"
+                disabled={disableButton}
+
                 className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             >
                 {t('submit.label')}

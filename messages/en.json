@@ -64,8 +64,9 @@
         },
         "submit": {
             "label": "Send Message",
-            "success_message": "<p>Message sent successfully! 😊</p><p>I will get back to you as soon as possible.</p>",
-            "error_message": "<p>An error occurred while sending your message. Please try again later.</p>"
+            "waiting_message": "Sending...",
+            "success_message": "Message sent successfully! 😊\nI will get back to you as soon as possible.",
+            "error_message": "An error occurred while sending your message. Please try again later."
         }
     },
     "TermsOfUse": {

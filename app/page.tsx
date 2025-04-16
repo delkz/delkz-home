@@ -3,11 +3,13 @@ import AboutMe from "./components/about-me";
 import LayoutButton from "./components/layout-button";
 import SkillsArea from "./components/skills";
 import ContactForm from "./components/contact-form";
+import { ToastContainer } from 'react-toastify';
 
 export default function Home() {
   const t = useTranslations('HomePage');
   return (
     <div className="container mx-auto px-4">
+         <ToastContainer />
       <div>
         <h2 className="text-xl font-bold"> {t("hello")} <span className="text-indigo-500">David</span>.</h2>
         <p>
