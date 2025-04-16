@@ -13,7 +13,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Delkz",
+  title: "Delkz | Front-End Developer",
   description: "Mid-Level Front-End Developer with over 4 years of experience in e-commerce and blogs",
 };
 
