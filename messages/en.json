@@ -47,6 +47,27 @@
         "home": "Home",
         "terms": "Terms of Use"
     },
+    "ContactForm": {
+        "title": "Get in Touch",
+        "subtitle": "I'm here to help!",
+        "name": {
+            "label": "Name",
+            "placeholder": "Your name"
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "Your email"
+        },
+        "message": {
+            "label": "Message",
+            "placeholder": "Your message"
+        },
+        "submit": {
+            "label": "Send Message",
+            "success_message": "<p>Message sent successfully! 😊</p><p>I will get back to you as soon as possible.</p>",
+            "error_message": "<p>An error occurred while sending your message. Please try again later.</p>"
+        }
+    },
     "TermsOfUse": {
         "title": "Terms of Use",
         "subtitle": "Welcome to my online portfolio! I would like to clarify some information about the elements and inspiration used in the development of this website.",

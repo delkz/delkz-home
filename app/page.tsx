@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import AboutMe from "./components/about-me";
 import LayoutButton from "./components/layout-button";
 import SkillsArea from "./components/skills";
+import ContactForm from "./components/contact-form";
 
 export default function Home() {
   const t = useTranslations('HomePage');
@@ -18,6 +19,9 @@ export default function Home() {
       <SkillsArea/>
 
       <AboutMe/>
+
+    
+      {process.env.RECAPTCHA_SITE && <ContactForm sitekey={process.env.RECAPTCHA_SITE}/>}
 
       <h2 className="text-xl font-bold back text-white bg-black text-center p-4 mt-5">{t("working")} </h2>
     </div>

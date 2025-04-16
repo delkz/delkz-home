@@ -43,6 +43,27 @@
         "work_title": "Experiência de Trabalho",
         "work_content": "<section><h2>Desenvolvedor Front-End Pleno (SERI.E DESIGN)</h2><p><strong>Outubro 2019 - Presente</strong></p><ul><li>Desenvolvi e mantive plataformas de e-commerce como Wake Storefront, Jet, Linx, Tray, Nuvemshop, Shopify, entre outras; além de criar e manter blogs em WordPress.</li><li>Refatorei código legado e propus novas tecnologias para a equipe de desenvolvimento.</li><li>Otimizei o desempenho dos sites contratados.</li><li>Assisti outros membros da equipe e estimei/validei tarefas.</li><li>Treinei membros da equipe de desenvolvimento.</li></ul></section><section><h2>Desenvolvedor Front-End Júnior (Grupo Ideal Trends)</h2><p><strong>Fevereiro 2019 - Outubro 2019</strong></p><ul><li>Desenvolvi sites focados em SEO e posicionamento orgânico.</li><li>Desenvolvi ferramentas internas.</li></ul></section>"
     },
+    "ContactForm":{
+        "title": "Entre em Contato",
+        "subtitle": "Estou aqui para ajudar!",
+        "name": {
+            "label": "Nome",
+            "placeholder": "Seu nome"
+        },
+        "email": {
+            "label": "E-mail",
+            "placeholder": "Seu e-mail"
+        },
+        "message": {
+            "label": "Mensagem",
+            "placeholder": "Sua mensagem"
+        },
+        "submit": {
+            "label": "Enviar Mensagem",
+            "success_message": "<p>Mensagem enviada com sucesso! 😊</p><p>Entrarei em contato o mais breve possível.</p>",
+            "error_message": "<p>Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde.</p>"
+        }
+    },
     "Footer": {
         "home": "Início",
         "terms": "Termos de Uso"
