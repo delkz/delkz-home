@@ -27,6 +27,13 @@ export default function TermsOfUse() {
                 <h2 className="font-bold mt-4">4. {t("terms.4.title")}</h2>
                 <p>{t("terms.4.content")}</p>
 
+                <h2 id="tags" className="font-bold mt-4">5. {t("terms.5.title")}</h2>
+                <div>{t.rich("terms.5.content", {
+                    strong: (chunks) => <strong>{chunks}</strong>,
+                    p: (chunks) => <p>{chunks}</p>,
+                })}</div>
+
+
                 <p>{t("thanks")}</p>
             </div>
 

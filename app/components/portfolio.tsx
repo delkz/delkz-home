@@ -4,13 +4,14 @@ import { useTranslations } from "next-intl";
 import PortfolioCard from "./portfolio-card";
 import SectionTitle from "./section-title";
 import { useEffect, useState } from "react";
+import { PortfolioTags } from "@/types";
 
 interface PortfolioCase {
     id: number,
     image: string,
     link: string,
     title: string,
-    type: string,
+    tags: PortfolioTags[],
     viewModel: string
 }
 
@@ -35,7 +36,7 @@ const Portfolio = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 min-h-[400px]">
                 {cases.map((item) => {
-                    return ( <PortfolioCard key={item.id} image={item.image} link={item.link} title={item.title} textsFallback={{ viewProject: t("viewProject") }}/>)
+                    return ( <PortfolioCard key={item.id} image={item.image} link={item.link} title={item.title} tags={item.tags} textsFallback={{ viewProject: t("viewProject") }}/>)
                 })}
             </div>
 

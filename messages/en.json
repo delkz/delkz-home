@@ -94,6 +94,10 @@
             "4": {
                 "title": "Contact",
                 "content": "If you have any questions about the development of this website or need further information about the elements used, feel free to reach out through the contact form provided."
+            },
+            "5":{
+                "title": "Project Tags Disclaimer", 
+                "content": "<p>The tags assigned to each project are intended to help with categorization and provide a general reference for areas of expertise. They do **not necessarily reflect** all the technologies used in each project.</p> <p>If you’re interested in learning more about the specific technologies used in a particular project, feel free to reach out through the <strong>contact form</strong>.</p> <p>The <strong>EXTERNAL</strong> tag refers to projects developed for companies or clients under contract. These projects may or may not be publicly available. I’m only showcasing projects or pages where I was **fully responsible for the front-end development**, and all shared work has been authorized for public display by the respective company or client.</p> <p>The <strong>FULLPROJECT</strong> tag refers to projects built entirely from scratch. These projects represent a complete showcase of my skills and experience as a developer.</p>"
             }
         }
     }
