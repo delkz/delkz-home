@@ -5,6 +5,11 @@
         "continue": "Continuar",
         "working": "Obrigado por visitar! Ainda não terminei de construir esta página, então sinta-se à vontade para voltar no futuro. :)"
     },
+    "Portfolio": {
+        "title": "Meu Portfólio",
+        "subtitle": "Aqui estão alguns dos meus projetos mais recentes. Estou sempre buscando novos desafios e oportunidades para expandir meu portfólio.",
+        "viewProject": "Ver Projeto"
+    },
     "Skills": {
         "title": "Serviços",
         "subtitle": "As habilidades que pagam as contas",
@@ -43,7 +48,7 @@
         "work_title": "Experiência de Trabalho",
         "work_content": "<section><h2>Desenvolvedor Front-End Pleno (SERI.E DESIGN)</h2><p><strong>Outubro 2019 - Presente</strong></p><ul><li>Desenvolvi e mantive plataformas de e-commerce como Wake Storefront, Jet, Linx, Tray, Nuvemshop, Shopify, entre outras; além de criar e manter blogs em WordPress.</li><li>Refatorei código legado e propus novas tecnologias para a equipe de desenvolvimento.</li><li>Otimizei o desempenho dos sites contratados.</li><li>Assisti outros membros da equipe e estimei/validei tarefas.</li><li>Treinei membros da equipe de desenvolvimento.</li></ul></section><section><h2>Desenvolvedor Front-End Júnior (Grupo Ideal Trends)</h2><p><strong>Fevereiro 2019 - Outubro 2019</strong></p><ul><li>Desenvolvi sites focados em SEO e posicionamento orgânico.</li><li>Desenvolvi ferramentas internas.</li></ul></section>"
     },
-    "ContactForm":{
+    "ContactForm": {
         "title": "Entre em Contato",
         "subtitle": "Estou aqui para ajudar!",
         "name": {

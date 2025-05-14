@@ -5,6 +5,11 @@
         "continue": "Continue",
         "working": "Thanks for visiting! I'm not finished building this page yet, so feel free to come back in the future. :)"
     },
+    "Portfolio": {
+        "title": "My Portfolio",
+        "subtitle": "Here are some of my most recent projects. I am always looking for new challenges and opportunities to expand my portfolio.",
+        "viewProject": "View Project"
+    },
     "Skills": {
         "title": "Services",
         "subtitle": "The skills to pay the bills",

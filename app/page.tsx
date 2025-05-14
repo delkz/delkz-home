@@ -4,6 +4,7 @@ import LayoutButton from "./components/layout-button";
 import SkillsArea from "./components/skills";
 import ContactForm from "./components/contact-form";
 import { ToastContainer } from 'react-toastify';
+import Portfolio from "./components/portfolio";
 
 export default function Home() {
   const t = useTranslations('HomePage');
@@ -17,9 +18,9 @@ export default function Home() {
         </p>
         <LayoutButton type="link" href="/" className="mt-2">{t("continue")}</LayoutButton>
       </div>
-
+      
       <SkillsArea/>
-
+      <Portfolio/>
       <AboutMe/>
 
     
