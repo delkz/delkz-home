@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import SectionTitle from './section-title';
 import { toast } from 'react-toastify';
 import ReCAPTCHA from 'react-google-recaptcha';
+import SocialLinks from './social-links';
 
 interface ContactFormProps {
     sitekey: string;
@@ -88,6 +89,8 @@ const ContactForm = ({ sitekey }: ContactFormProps) => {
         >
             <SectionTitle title={t("title")} subtitle={t("subtitle")} />
 
+            <SocialLinks className='justify-center'/>
+
             <div>
                 <label
                     htmlFor="name"
@@ -143,9 +146,9 @@ const ContactForm = ({ sitekey }: ContactFormProps) => {
             </div>
 
             {/* reCAPTCHA */}
-            
+
             <ReCAPTCHA
-                sitekey={sitekey} 
+                sitekey={sitekey}
                 onChange={handleRecaptchaChange}
             />
 

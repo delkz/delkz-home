@@ -5,6 +5,7 @@ import SkillsArea from "./components/skills";
 import ContactForm from "./components/contact-form";
 import { ToastContainer } from 'react-toastify';
 import Portfolio from "./components/portfolio";
+import SocialLinks from "./components/social-links";
 
 export default function Home() {
   const t = useTranslations('HomePage');
@@ -16,6 +17,7 @@ export default function Home() {
         <p>
         {t("hello_description")}
         </p>
+        <SocialLinks iconSize={24}/>
         <LayoutButton type="link" href="/" className="mt-2">{t("continue")}</LayoutButton>
       </div>
       
