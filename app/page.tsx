@@ -18,7 +18,6 @@ export default function Home() {
         {t("hello_description")}
         </p>
         <SocialLinks iconSize={24}/>
-        <LayoutButton type="link" href="/" className="mt-2">{t("continue")}</LayoutButton>
       </div>
       
       <SkillsArea/>
