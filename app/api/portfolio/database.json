@@ -6,7 +6,10 @@
             "link": "https://psicologasandramoraes.com.br/",
             "title": "Dr. Sandra Moraes",
             "date:": "2024-01-01",
-            "tags": ["WordPress","FullProject"],
+            "tags": [
+                "WordPress",
+                "FullProject"
+            ],
             "viewModel": "newTab",
             "description": {
                 "pt": "Site institucional para psicóloga com foco em terapia cognitivo-comportamental. O site foi desenvolvido com o objetivo de apresentar os serviços oferecidos, informações sobre a profissional e facilitar o agendamento de consultas.",
@@ -19,11 +22,34 @@
             "link": "https://elyah.com.br/",
             "title": "Elyah",
             "date:": "2025-01-01",
-            "tags": ["shopify","FullProject","CompanyProject","Serie A"],
+            "tags": [
+                "shopify",
+                "FullProject",
+                "CompanyProject",
+                "Serie A"
+            ],
             "viewModel": "newTab",
             "description": {
-                "pt": "E-commerce de moda feminina especializado em acessórios. O site foi criado para proporcionar uma experiência de compra online prática, intuitiva e agradável, com um design moderno e totalmente responsivo.<br/>Desenvolvido em nome da 'Série A'; você pode acessar o site da agência clicando na tag com o mesmo nome. Em caso de dúvidas, consulte os termos de uso.", 
+                "pt": "E-commerce de moda feminina especializado em acessórios. O site foi criado para proporcionar uma experiência de compra online prática, intuitiva e agradável, com um design moderno e totalmente responsivo.<br/>Desenvolvido em nome da 'Série A'; você pode acessar o site da agência clicando na tag com o mesmo nome. Em caso de dúvidas, consulte os termos de uso.",
                 "en": "Women's fashion e-commerce specialized in clothing and accessories. The website was designed to offer a practical, intuitive, and pleasant online shopping experience, featuring a modern and fully responsive design.<br>Developed on behalf of 'Série A'; you can visit the agency's website by clicking on the tag with the same name. If you have any questions, please refer to the terms of use."
+            }
+        },
+        {
+            "id": 3,
+            "image": "/portfolio/pensador.png",
+            "link": "https://pensador.vercel.app/",
+            "github": "https://github.com/delkz/pensador",
+            "title": "Pensador",
+            "date:": "2023-08-14",
+            "tags": [
+                "React",
+                "NextJS",
+                "Personal"
+            ],
+            "viewModel": "newTab",
+            "description": {
+                "pt": "Um projeto simples que visa compartilhar pensamentos e reflexões. O site foi desenvolvido com o objetivo de criar um espaço para expressar ideias e promover a reflexão.<br>Feito usando Next.js",
+                "en": "A simple project aimed at sharing thoughts and reflections. The website was developed to create a space for expressing ideas and promoting reflection.<br>Built using Next.js"
             }
         }
     ]
