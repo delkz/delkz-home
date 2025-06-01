@@ -55,11 +55,17 @@ const PortfolioModal = ({ item, modalController }: PortfolioModalProps) => {
                                 title={item.title} >
                                 {viewProjectText}
                             </LayoutButton>
+                            {item.github && (
+                                <LayoutButton type="link" href={item.github} title={item.title}>
+                                    GitHub
+                                </LayoutButton>
+                            )}
                             <LayoutButton
                                 type="button"
                                 onClick={closeModal}
                             >{backButtonText}
                             </LayoutButton>
+
                         </div>
 
 

@@ -1,8 +1,36 @@
-export type PortfolioTags = "WordPress" | "FullProject" | "LandingPage" | "inHouse" | "CompanyProject" | "eCommerce" | "Shopify" | "WebApp" | "UI/UX" | "Design" | "Development" | "SEO" | "Marketing" | "SocialMedia" | "Branding" | "ContentCreation" | "Photography" | "Videography" | "Consulting" | "Strategy" | "Analytics" | "Research" | "Training" | "Support" | "Serie A";
+export type PortfolioTags = "WordPress" |
+    "FullProject" |
+    "LandingPage" |
+    "inHouse" |
+    "CompanyProject" |
+    "eCommerce" |
+    "Shopify" |
+    "WebApp" |
+    "UI/UX" |
+    "Design" |
+    "Development" |
+    "SEO" |
+    "Marketing" |
+    "SocialMedia" |
+    "Branding" |
+    "ContentCreation" |
+    "Photography" |
+    "Videography" |
+    "Consulting" |
+    "Strategy" |
+    "Analytics" |
+    "Research" |
+    "Training" |
+    "Support" |
+    "React" |
+    "NextJS" |
+    "Personal" |
+    "Serie A";
 export type PortfolioItem = {
     id: number;
     image: string;
     link: string;
+    github?: string;
     title: string;
     date?: string;
     tags?: PortfolioTags[];
