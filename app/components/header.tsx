@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="flex justify-between items-center py-4">
                     <div>
                         <h1 className="text-2xl font-bold">
-                            <Link href={"/"}>Delkz</Link>
+                            <Link href={"/"}>Delkz | Front-end</Link>
                         </h1>
                     </div>
                     <div>
