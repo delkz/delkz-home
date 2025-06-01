@@ -17,7 +17,7 @@ interface PortfolioCase {
 
 
 const Portfolio = () => {
-    const [cases,setCases] = useState<PortfolioCase[]>([]);
+    const [cases, setCases] = useState<PortfolioCase[]>([]);
     useEffect(() => {
         const fetchCases = async () => {
             const res = await fetch("api/portfolio");
@@ -27,7 +27,7 @@ const Portfolio = () => {
         }
         fetchCases();
     }, [])
-    
+
 
     const t = useTranslations('Portfolio');
     return (<div className="mt-5 lg:mt-10 mb-10">
@@ -36,7 +36,9 @@ const Portfolio = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 min-h-[400px]">
                 {cases.map((item) => {
-                    return ( <PortfolioCard key={item.id} image={item.image} link={item.link} title={item.title} tags={item.tags} textsFallback={{ viewProject: t("viewProject") }}/>)
+                    return (
+                        <PortfolioCard key={item.id} item={{ ...item, textsFallback: { viewProject: t("viewProject") } }} />
+                    )
                 })}
             </div>
 

@@ -5,16 +5,26 @@
             "image": "/portfolio/psico_san_desktop.png",
             "link": "https://psicologasandramoraes.com.br/",
             "title": "Dr. Sandra Moraes",
+            "date:": "2024-01-01",
             "tags": ["WordPress","FullProject"],
-            "viewModel": "newTab"
+            "viewModel": "newTab",
+            "description": {
+                "pt": "Site institucional para psicóloga com foco em terapia cognitivo-comportamental. O site foi desenvolvido com o objetivo de apresentar os serviços oferecidos, informações sobre a profissional e facilitar o agendamento de consultas.",
+                "en": "Institutional website for a psychologist focused on cognitive-behavioral therapy. The website was developed to present the services offered, information about the professional, and facilitate appointment scheduling."
+            }
         },
         {
             "id": 2,
             "image": "/portfolio/elyah_desktop.png",
             "link": "https://elyah.com.br/",
             "title": "Elyah",
+            "date:": "2025-01-01",
             "tags": ["shopify","FullProject","CompanyProject","Serie A"],
-            "viewModel": "newTab"
+            "viewModel": "newTab",
+            "description": {
+                "pt": "E-commerce de moda feminina especializado em acessórios. O site foi criado para proporcionar uma experiência de compra online prática, intuitiva e agradável, com um design moderno e totalmente responsivo.<br/>Desenvolvido em nome da 'Série A'; você pode acessar o site da agência clicando na tag com o mesmo nome. Em caso de dúvidas, consulte os termos de uso.", 
+                "en": "Women's fashion e-commerce specialized in clothing and accessories. The website was designed to offer a practical, intuitive, and pleasant online shopping experience, featuring a modern and fully responsive design.<br>Developed on behalf of 'Série A'; you can visit the agency's website by clicking on the tag with the same name. If you have any questions, please refer to the terms of use."
+            }
         }
     ]
 }

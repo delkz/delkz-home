@@ -32,7 +32,7 @@ const PortfolioCardTag = ({ tags }: PortfolioCardTagsProps) => {
 
 
                 let linkTag = "/terms-of-use#tags";
-                let isExternalLink = false;
+                let isExternalLink = true;
                 if(tag === "Serie A"){
                     isExternalLink = true;
                     linkTag = "https://www.seriedesign.com.br/";
