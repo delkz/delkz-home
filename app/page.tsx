@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import AboutMe from "./components/about-me";
-import LayoutButton from "./components/layout-button";
 import SkillsArea from "./components/skills";
 import ContactForm from "./components/contact-form";
 import { ToastContainer } from 'react-toastify';
