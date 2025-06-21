@@ -51,6 +51,22 @@
                 "pt": "Um projeto simples que visa compartilhar pensamentos e reflexões. O site foi desenvolvido com o objetivo de criar um espaço para expressar ideias e promover a reflexão.<br>Feito usando Next.js",
                 "en": "A simple project aimed at sharing thoughts and reflections. The website was developed to create a space for expressing ideas and promoting reflection.<br>Built using Next.js"
             }
+        },
+        {
+            "id": 4,
+            "image": "/portfolio/shadow-strike.png",
+            "link": "https://shadow-strike-eight.vercel.app/",
+            "title": "shadow strike",
+            "date:": "2025-06-21",
+            "tags": [
+                "React",
+                "NextJS"
+            ],
+            "viewModel": "newTab",
+            "description": {
+                "pt": "Shadow Strike é uma equipe de esports ficticia que compete em jogos como CS:GO, Valorant e League of Legends. O site foi desenvolvido para apresentar a equipe, seus jogadores e resultados de partidas.",
+                "en": "Shadow Strike is an fake esports team that competes in games like CS:GO, Valorant, and League of Legends. The website was developed to showcase the team, its players, and match results."
+            }
         }
     ]
 }
