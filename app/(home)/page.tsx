@@ -5,10 +5,13 @@ import ContactForm from "./components/contact-form";
 import { ToastContainer } from 'react-toastify';
 import Portfolio from "./components/portfolio";
 import SocialLinks from "./components/social-links";
+import Layout from "../components/Layout";
+
 
 export default function Home() {
   const t = useTranslations('HomePage');
   return (
+    <Layout>
     <div className="container mx-auto px-4">
          <ToastContainer />
       <div>
@@ -28,5 +31,6 @@ export default function Home() {
 
       <h2 className="text-xl font-bold back text-white bg-black text-center p-4 mt-5">{t("working")} </h2>
     </div>
+    </Layout>
   );
 }

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import ScriptsHeader from "./components/scripts-header";
@@ -39,9 +37,7 @@ export default async function RootLayout({
       <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${process.env.GTM || ''}`}
       height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
         <NextIntlClientProvider messages={messages}>
-          <Header/>
           {children}
-          <Footer/>
         </NextIntlClientProvider >
       </body>
     </html>

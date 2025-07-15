@@ -1,7 +1,9 @@
 import { useTranslations } from "next-intl";
+import Layout from "../components/Layout";
 export default function TermsOfUse() {
     const t = useTranslations("TermsOfUse");
     return (
+        <Layout>
         <div className="container mx-auto px-4 min-h-[calc(100vh-180px)]">
             <div>
                 <h1 className="font-bold mt-4 text-2xl">{t("title")}</h1>
@@ -38,5 +40,6 @@ export default function TermsOfUse() {
             </div>
 
         </div>
+        </Layout>
     );
 }
