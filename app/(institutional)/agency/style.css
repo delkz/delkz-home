@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+      font-family: "Red Hat Display", sans-serif;
+}
+
+html{
+    background-color: rgb(21, 1, 41);
+    background: linear-gradient(90deg, rgba(21, 1, 41, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.btn{
+    display: block;
+    padding: 12px 25px;
+    border-radius: 32px;
+    backdrop-filter: blur(10px);
+        transition: background-color 0.3s ease;
+}
+
+.card{
+    display: block;
+    border: 1px solid #f0f8ff0a;
+    border-radius: 25px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease;
+    background-color: #f0f8ff0a;
+}
