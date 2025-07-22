@@ -12,7 +12,7 @@ type layoutButtonProps = {
 
 const LayoutButton = ({ type, children, onClick, href, className, target = "_blank", title="Delkz, Front-end developer"}: layoutButtonProps) => {
 
-    const DefaultClassName = "bg-black border-black border text-white px-4 py-2 text-center block lg:inline-block hover:bg-indigo-500 hover:text-black ";
+    const DefaultClassName = "button-component bg-black border-black border text-white px-4 py-2 text-center block lg:inline-block hover:bg-indigo-500 hover:text-black ";
 
     if (type === "link") {
         return (

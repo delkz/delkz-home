@@ -1,28 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 
-*{
-      font-family: "Red Hat Display", sans-serif;
+* {
+  font-family: "Red Hat Display", sans-serif;
 }
 
-html{
-    background-color: rgb(21, 1, 41);
-    background: linear-gradient(90deg, rgba(21, 1, 41, 1) 0%, rgba(0, 0, 0, 1) 100%);
+html {
+  background-color: rgb(21, 1, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(21, 1, 41, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
-.btn{
-    display: block;
-    padding: 12px 25px;
-    border-radius: 32px;
-    backdrop-filter: blur(10px);
-        transition: background-color 0.3s ease;
+.btn {
+  display: block;
+  padding: 12px 25px;
+  border-radius: 32px;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
 }
 
-.card{
-    display: block;
-    border: 1px solid #f0f8ff0a;
-    border-radius: 25px;
-    padding: 20px;
-    backdrop-filter: blur(10px);
-    transition: background-color 0.3s ease;
-    background-color: #f0f8ff0a;
+.card {
+  display: block;
+  border: 1px solid #f0f8ff0a;
+  border-radius: 25px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
+  background-color: #f0f8ff0a;
+}
+
+
+.modal-portfolio .bg-white{
+  backdrop-filter: blur(12px);
+  background: rgb(5 5 5 / 57%);
+  border: 1px solid #ffffff1f;
+  box-shadow: inset 2px 4px 12px 0px #0000002e;
+  text-align: left;
+}
+
+
+.modal-portfolio .font-bold {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.button-component {
+    border-radius: 20px;
+    padding: 8px 30px;
+}
+
+#portfolio .mt-8{
+    margin-top: 0px;
+}
+
+#contact-form .bg-white{
+    padding: 42px 20px;
+    border-radius: 15px;
+   
+}
+
+
+#contact-form input,#contact-form textarea{
+    color: black;
+   
 }

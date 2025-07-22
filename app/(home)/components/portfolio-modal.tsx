@@ -33,7 +33,7 @@ const PortfolioModal = ({ item, modalController }: PortfolioModalProps) => {
     const viewProjectText = locale === 'pt' ? 'Ver Projeto' : 'View Project';
 
     return (
-        <div ref={modalRef} className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex items-center justify-center z-[999]">
+        <div ref={modalRef} className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex items-center justify-center z-[999] modal-portfolio">
             <div className="container mx-auto px-4 py-8 bg-white rounded-lg shadow-lg">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>

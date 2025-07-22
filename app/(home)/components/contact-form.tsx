@@ -9,9 +9,10 @@ import SocialLinks from './social-links';
 
 interface ContactFormProps {
     sitekey: string;
+    useTitle?: boolean;
 }
 
-const ContactForm = ({ sitekey }: ContactFormProps) => {
+const ContactForm = ({ sitekey,useTitle = true }: ContactFormProps) => {
     const t = useTranslations('ContactForm');
 
     const [formData, setFormData] = useState({
@@ -87,7 +88,7 @@ const ContactForm = ({ sitekey }: ContactFormProps) => {
             onSubmit={handleSubmit}
             className="w-full mx-auto my-10 bg-white space-y-4"
         >
-            <SectionTitle title={t("title")} subtitle={t("subtitle")} />
+            {useTitle && <SectionTitle title={t("title")} subtitle={t("subtitle")} />}
 
             <SocialLinks className='justify-center'/>
 
